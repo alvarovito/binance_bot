@@ -1,0 +1,13 @@
+{
+  "name": "binance-bot",
+  "version": "1.0.0",
+  "description": "Simple automated trading service for Binance",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "binance-api-node": "^0.12.3"
+  }
+}
