@@ -1,0 +1,33 @@
+{
+  "name": "binance-seeds-service",
+  "version": "1.0.0",
+  "description": "A service to automate trading on Binance using seed-based investment strategy.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "keywords": [
+    "binance",
+    "trading",
+    "automation",
+    "seeds",
+    "investment"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
